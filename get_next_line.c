@@ -6,7 +6,7 @@
 /*   By: fbafica <fbafica@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/29 20:01:02 by fbafica           #+#    #+#             */
-/*   Updated: 2021/07/10 14:28:24 by fbafica          ###   ########.fr       */
+/*   Updated: 2021/07/10 15:01:15 by fbafica          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,20 +41,18 @@ int	fill_line(char ***line, char **saved)
 
 	if (*saved)
 	{
-		if (ft_strchr(*saved, '\n'))
-		{
-			len = get_chrlen(*saved, '\n');
-			**line = ft_substr(*saved, 0, len);
-			saved_cut(&saved, len + 1);
-			return (1);
-		}
-		else
+		if (!ft_strchr(*saved, '\n'))
 		{
 			len = get_len(*saved);
 			**line = ft_substr(*saved, 0, len);
 			saved_cut(&saved, len);
+			check_saved(&saved);
 			return (0);
 		}
+		len = get_chrlen(*saved, '\n');
+		**line = ft_substr(*saved, 0, len);
+		saved_cut(&saved, len + 1);
+		return (1);
 	}
 	else
 	{
