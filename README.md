@@ -8,11 +8,16 @@ A function to get one line at a time from a document.
 * [42 École | 42 São Paulo](#-42-école--42-são-paulo)
 
 ## 🧐 About
-This is an implementation of a function the gets one line at a time from a document. The function returns:\
- 1: A line has been read;\
- 0: End of file has been reached;\
--1: An error happened;\
-Prototype: `int	get_next_line(int fd, char **line);`\
+This is an implementation of a function the gets one line at a time from a document.
+
+The function returns:
+ * 1: A line has been read;
+ * 0: End of file has been reached;
+ * -1: An error happened;
+ 
+Prototype: 
+* `int	get_next_line(int fd, char **line);`
+
 This project is part of 42 École/ 42 SP curriculum.\
 Topics such as memory allocation, and static variables were addressed.
 
@@ -32,7 +37,7 @@ $ gcc my_source.c -I ./get_next_line/includes ./get_next_line/get_next_line.a
 $ ./a.out
 ```
 ## 🎈 How to Use
-Call the function passing a file descriptor, and a pointer that will receive a line from the document.
+Call the function passing a file descriptor `fd`, and a pointer `**line` that will receive a line from the document.
 ```
 #include "get_next_line.h"
 #include <fcntl.h>
