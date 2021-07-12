@@ -19,7 +19,7 @@ Topics such as memory allocation, and static variables were addressed.
 A C compiler such as `gcc` or `clang` is needed.
 
 #### ⚙️ Installing
-To compile the entire library, clone the repo, and run the commad `make`.
+To compile the entire thing, clone the repo, and run the commad `make`.
 ```
 $ git clone https://github.com/filipebafica/get_next_line.git
 $ cd get_next_line
