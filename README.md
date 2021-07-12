@@ -43,7 +43,7 @@ int	main(void)
 	char  *line;
   	int   call
   
-  	fd = open("my_document.txt", O_RDONLY)
+  	fd = open("my_document.txt", O_RDONLY);
   	call = 1;
  	while (call > 0)
   	{
