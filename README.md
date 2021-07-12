@@ -41,7 +41,7 @@ int	main(void)
 {
 	int   fd;
 	char  *line;
-  	int   call
+  	int   call;
   
   	fd = open("my_document.txt", O_RDONLY);
   	call = 1;
