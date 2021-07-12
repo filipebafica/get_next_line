@@ -42,6 +42,7 @@ Call the function passing a file descriptor `fd`, and a pointer `**line` that wi
 #include "get_next_line.h"
 #include <fcntl.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int	main(void)
 {
