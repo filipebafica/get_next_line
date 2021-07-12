@@ -8,7 +8,7 @@ A function to get one line at a time from a document.
 * [42 École | 42 São Paulo](#-42-école--42-são-paulo)
 
 ## 🧐 About
-This is an implementation of a function the gets one line at a time from a document.
+This is an implementation of a function that gets one line at a time from a document.
 
 The function returns:
  * 1: A line has been read;
