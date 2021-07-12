@@ -31,7 +31,7 @@ $ gcc my_source.c -I ./get_next_line/includes ./get_next_line/get_next_line.a
 $ ./a.out
 ```
 ## 🎈 How to Use
-Call the function passing a file descripto,r and a pointer that will receive a line from the document.
+Call the function passing a file descriptor, and a pointer that will receive a line from the document.
 ```
 #include "get_next_line.h"
 #include <fcntl.h>
