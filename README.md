@@ -40,14 +40,14 @@ Call the function passing a file descripto,r and a pointer that will receive a l
 int	main(void)
 {
 	int   fd;
-  char  *line;
-  int   call
+	char  *line;
+  	int   call
   
-  fd = open("my_document.txt", O_RDONLY)
-  call = 1;
-  while (call > 0)
-	{
-		call = get_next_line(fd, &line);
+  	fd = open("my_document.txt", O_RDONLY)
+  	call = 1;
+ 	 while (call > 0)
+  	{
+  		call = get_next_line(fd, &line);
 		printf("%s\n", line);
 		free (line);
 	}
