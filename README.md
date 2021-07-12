@@ -12,7 +12,7 @@ This is an implementation of a function the gets one line at a time from a docum
  1: A line has been read;\
  0: End of file has been reached;\
 -1: An error happened;\
-prototype: `int	get_next_line(int fd, char **line);`\
+Prototype: `int	get_next_line(int fd, char **line);`\
 This project is part of 42 École/ 42 SP curriculum.\
 Topics such as memory allocation, and static variables were addressed.
 
