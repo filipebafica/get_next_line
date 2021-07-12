@@ -45,9 +45,9 @@ int	main(void)
   
   	fd = open("my_document.txt", O_RDONLY)
   	call = 1;
- 	 while (call > 0)
+ 	while (call > 0)
   	{
-  		call = get_next_line(fd, &line);
+		call = get_next_line(fd, &line);
 		printf("%s\n", line);
 		free (line);
 	}
