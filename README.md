@@ -22,7 +22,7 @@ This project is part of 42 École/ 42 SP curriculum.\
 Topics such as memory allocation, and static variables were addressed.
 
 ## 🏁 Getting Started
-A C compiler such as `gcc` or `clang` is needed.
+The `gcc` compiler is needed.
 
 #### ⚙️ Installing
 To compile the code, clone the repo, and run the commad `make`.
