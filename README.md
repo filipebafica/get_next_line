@@ -1,4 +1,4 @@
-# Get Next Line
+# get_next_line
 A function to get one line at a time from a document.
 
 ## 🗂 Table of Contents
