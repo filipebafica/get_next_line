@@ -20,7 +20,7 @@ INCLUDES_PATH = ./includes/
 
 OBJ = $(C_SOURCES:.c=.o)
 
-all: $(NAME) clean
+all: $(NAME)
 
 $(NAME): $(OBJ)
 	@ar rcs $@ $^ 
